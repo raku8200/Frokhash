@@ -2,6 +2,7 @@
 use strict;
 use Term::ANSIColor;
 use Digest::MD5 qw(md5_hex);
+my $datetime = localtime;
 if ($^O =~ /MSWin32/) {system("cls"); }else { system("clear"); }
 print color('bold green');
 print q(
