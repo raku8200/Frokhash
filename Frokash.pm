@@ -30,7 +30,7 @@ print q(
   print color('bold white'),"\n";
 my $target_hash = shift;
 
-my @charset = ('a'..'z', 'A'..'Z', '0'..'9');
+my @charset =  ('a'..'z', 'A'..'Z', '0'..'9', qw(! @ # $ % ^ & * ( ) _ + - = { } [ ] \ | : ; " ' < > , . ? /));
 
 
 my $password_length = 8;
